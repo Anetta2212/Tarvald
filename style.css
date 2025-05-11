@@ -22,7 +22,7 @@ header {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  font-size: 20px;
+  font-size: 40px;
   color: #75a8eb;
   width: 100%;
 }
@@ -41,6 +41,7 @@ header {
   white-space: nowrap;
   display: inline-block;
   margin-bottom: 10px;
+  
 }
 
 .btn:hover {
