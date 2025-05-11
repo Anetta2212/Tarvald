@@ -41,7 +41,7 @@ header {
   white-space: nowrap;
   display: inline-block;
   margin-bottom: 10px;
-  
+  font-size: 40px;
 }
 
 .btn:hover {
