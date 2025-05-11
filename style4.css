@@ -11,20 +11,15 @@ body {
     overflow: hidden;
 }
 
-nav {
-  display: block;
-}
-
 header {
-    font-size: 35px;
-    background: #000;
-    padding-bottom: 15px;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
-    color: #75a8eb;
-    border-radius: 10px;
+  background: #000;
+  padding-bottom: 15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+  color: #75a8eb;
+  width: 100%;
 }
 
 .btn {
@@ -41,6 +36,7 @@ header {
   white-space: nowrap;
   display: inline-block;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .btn:hover {
