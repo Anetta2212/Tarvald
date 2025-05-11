@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Lobster&family=Pattaya&display=swap");
+
+body {
+  background: linear-gradient(
+    180deg,
+    #75a8eb 0%,
+    #263e5e 50.95%,
+    #000b19 81.37%
+  );
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 22px;
+}
+
+header {
+  font-size: 35px;
+  background: #000;
+  padding-bottom: 15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: #75a8eb;
+}
+
+nav {
+  display: block;
+}
+
+.btn {
+  border-radius: 10px;
+  background: #75a8eb;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  padding: 1px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  border: 2px solid white;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  font-family: "Great Vibes", cursive;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  border-radius: 10px;
+  background: #000;
+  color: #75a8eb;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .key {
+    width: 200px;
+    height: 200px;
+  }
+}
