@@ -24,6 +24,7 @@ header {
   flex-wrap: wrap;
   font-size: 20px;
   color: #75a8eb;
+  width: 100%;
 }
 
 .btn {
